@@ -1,17 +1,14 @@
-let num = prompt('Введите ваше число для проверки');
+let num = +prompt('Введите ваше число для проверки');
 
 function isPrime(num){
 
 
-    if(typeof num !== 'number'){
 
-        
-        return 'К сожалению,это не число';
-    }
+    for( ; ; ) {
 
-    for( ;  ; ) {
 
-        if(num % 1 === 0 && num >= 0){
+        if(num % 1 === 0  && num >= 0){
+
             return true;
         }
 
